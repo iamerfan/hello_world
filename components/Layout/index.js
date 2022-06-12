@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Footer from './Footer/Index.js'
-import Header from './Header/Index.js'
+import Footer from './Footer/index.js'
+import Header from './Header/index.js'
 
 const Layout = ({ children }) => {
    return (

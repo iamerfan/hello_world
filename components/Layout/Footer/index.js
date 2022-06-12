@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { BsPhoneFill, BsFillChatLeftTextFill } from 'react-icons/bs'
 
-export default function Footer() {
+const Footer = () => {
    var currentTime = new Date()
    var year = currentTime.getFullYear()
 
@@ -85,3 +85,4 @@ export default function Footer() {
       </div>
    )
 }
+export default Footer

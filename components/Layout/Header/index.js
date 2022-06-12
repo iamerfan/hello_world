@@ -8,7 +8,7 @@ import { categories } from '../../data'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Header() {
+const Header = () => {
    const [panel, setPanel] = useState(false)
    const [show, setShow] = useState(false)
    const [lastScrollY, setLastScrollY] = useState(0)
@@ -92,3 +92,4 @@ export default function Header() {
       </>
    )
 }
+export default Header
